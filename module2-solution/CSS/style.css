@@ -24,7 +24,6 @@ h1 {
   /* positioning */
   position: relative;
   top: 60px;
-
   /* box */
   padding: 0px;
   margin-right: 0px;
@@ -35,7 +34,6 @@ h1 {
   /* positioning */
   position: relative;
   float: left;
-
   /* box */
   width: auto;
   height: auto;
