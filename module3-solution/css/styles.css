@@ -1,0 +1,164 @@
+/********** Base styles **********/
+/* set border-box sizing for whole page */
+* {
+  box-sizing: border-box;
+}
+
+/* override bodyproperties and set base font family, size and color */
+body{
+  margin: 0px;
+  font-family: Arial;
+  font-size: 16px;
+  color: black;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 0;
+  min-height: 70px;
+}
+.container{
+  margin-left: 0px;
+}
+.navbar-brand {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+/* Restaurant name */
+.navbar-brand h1 { 
+  text-align: left;
+  font-family: Arial;
+  color: white;
+  font-size: 150%;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 5px;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  margin: 20px 15px 15px 0px;
+}
+
+#nav-list a {
+  color: black;
+  text-align: center;
+  padding-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#nav-list a:hover {
+  background: white;
+}
+/* override H1 properties */
+h1 {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+#container {
+  /* positioning */
+  position: relative;
+  top: 60px;
+  /* box */
+  padding: 0px;
+  margin-right: 0px;
+  margin-left: 20px;
+}
+
+#box {
+  /* positioning */
+  position: relative;
+  float: left;
+  clear: right;
+  /* box */
+  width: auto;
+  height: auto;
+  border: 2px solid black;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: grey;
+}
+
+/* section headings */
+#chicken {
+  /* positioning */
+  position: relative;
+  text-align: center;
+  /* box */ 
+  width: auto;
+  height: auto;
+  padding: 5px;
+  margin: 0px 0px 5px 0px;
+  /* font */
+  color: black;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+#beef {
+  /* positioning */
+  position: relative;
+  text-align: center;
+  /* box */ 
+  width: auto;
+  height: auto;
+  padding: 5px;
+  margin: 0px 0px 5px 0px;
+  /* font */
+  color: black;
+  font-size: 120%;
+  font-weight: bold;
+}
+#sushi {
+  /* positioning */
+  position: relative;
+  text-align: center;
+  /* box */ 
+  width: auto;
+  height: auto;
+  padding: 5px;
+  margin: 0px 0px 5px 0px;
+  /* font */
+  color: black;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+/* section content */
+#content {
+  /*positioning */
+  text-align: justify;
+  /* box */
+  background-color: grey;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+
+/********** Large and Medium devices only **********/
+@media (min-width: 992px) {
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+}
